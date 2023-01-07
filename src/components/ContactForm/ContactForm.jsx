@@ -14,7 +14,7 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <Formik initialValues={{ name: '', number: '' }} onSubmit={handleSubmit}>
+      <Formik initialValues={{ name: '', phone: '' }} onSubmit={handleSubmit}>
         <Form className={css.contactForm} autoComplete="off">
           <label className={css.contactForm__label} htmlFor="name">
             Name
