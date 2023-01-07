@@ -28,12 +28,12 @@ export const ContactForm = () => {
             />
           </label>
           <label className={css.contactForm__label} htmlFor="phone">
-            Number
+            Phone
             <Field
               className={css.contactForm__input}
               type="tel"
               pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-              name="number"
+              name="phone"
               placeholder="Contact phone"
               required
             />
